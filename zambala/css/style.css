@@ -1,0 +1,354 @@
+input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] {
+	line-height:normal;
+}
+ [type="date"]::-webkit-inner-spin-button {
+ display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+ opacity: 0;
+}
+.ibook {
+	display:inline-block;
+	vertical-align:middle;
+	position:relative;
+}
+.ibook i {
+	position:absolute;
+	right:10px;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.ibook .title {
+	width:200px;
+	color: #fff;
+	font-size: 16px;
+}
+.ibook input, .ibook select {
+	border: 1px solid #c4c4c4;
+	border-radius: 0;
+	background-color: #fff;
+	padding: 3px 5px;
+	box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+	width: 140px;
+	cursor:pointer;
+}
+.ibook label {
+}
+.banner {
+	position:relative;
+}
+.wrap_filder {
+	position:absolute;
+	bottom:0;
+	background-color:#ef882b;
+	z-index:1;
+	width:100%;
+	padding: 35px 0;
+}
+.btn_rht {
+	float:right;
+}
+.book_now {
+	background-color:#b15502;
+	color:#fff;
+	margin-top:10px;
+}
+.room_content {
+	background-color: #f0ddcb;
+}
+.room_content .pricing {
+	display:block;
+}
+.room_content .pricing span {
+	color:#ef882b;
+}
+.room_content .main {
+	background-color:#ffffff;
+	padding: 0 10px 25px;
+}
+.room_content .thumb {
+	display: inline-block;
+	vertical-align: middle;
+	/*float:left;*/
+max-width: 190px;
+	padding: 10px 20px 10px 0;
+}
+.room_content .btn {
+	background-color:#1c1c1c;
+}
+.testimonial {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef882b+50,1c1c1c+50 */
+background: rgb(239,136,43); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef882b', endColorstr='#1c1c1c', GradientType=1 ); /* IE6-9 */
+}
+.testimonial .col_wrapper {
+}
+.testimonial .col_wrapper .col {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+}
+.testimonial .col_wrapper .lft-col {
+	/*   background-color: #ef882b;*/
+	   vertical-align:top;
+	padding: 50px 0;
+}
+.testimonial .col_wrapper .message {
+	width:50%;
+}
+.testimonial .social-icons ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	width:114px;
+	height:82px;
+	position:relative;
+}
+.testimonial .social-icons {
+	margin-top:30px;
+}
+.testimonial .social-icons ul li figure {
+	position:relative;
+}
+.testimonial .social-icons ul li i {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%) !important;
+	-webkit-transform: translate(-50%, -100%) !important;
+	-moz-transform: translate(-50%, -100%) !important;
+	-o-transform: translate(-50%, -100%) !important;
+	-ms-transform: translate(-50%, -100%) !important;
+	/*background: red;
+height: 30px;
+width: 30px;
+border-radius: 50%;
+line-height: 30px;*/
+    transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+ -ms-transition: a.ll 0.4s ease-in-out 0s;
+}
+.testimonial .social-icons ul li a {
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+ -ms-transition: a.ll 0.4s ease-in-out 0s;
+}
+.testimonial .social-icons ul li a:hover {
+	opacity:0.5;
+}
+.testimonial .col_wrapper .rht-col {
+	/*  background-color:#1c1c1c;*/
+	  	  position:relative;
+	padding: 50px;
+}
+.testimonial .title {
+	color:#fff;
+	text-transform:uppercase;
+}
+.testimonial h4 {
+	color:#fff;
+}
+.testimonial .carousel {
+	position:static;
+}
+.testimonial .carousel-inner .item {
+	color:#ffffff;
+	margin: 20px 0;
+	max-height: none;
+}
+.testimonial .carousel-inner .item author {
+	color:#f8b274;
+	text-transform:uppercase;
+	font-size: 17px;
+}
+.testimonial .carousel-control {
+	height: 25px;
+	width: 25px;
+	background-color: #fff;
+	color: #1c1c1c;
+	line-height: 25px;
+	font-size:15px;
+	top: auto;
+	bottom: 0;
+	margin-bottom: 10px;
+}
+.testimonial .carousel-control.left {
+	right: auto;
+	left: 50px;
+	border-right:1px solid #636363;
+}
+.testimonial .carousel-control.right {
+	right: auto;
+	left: 75px;
+}
+.testimonial .carousel-control i {
+}
+.gallery_content .owl-item .item {
+	margin:0;
+}
+.gallery_content .owl-theme .owl-controls .owl-buttons {
+	display:none;
+}
+.footer_title {
+	color:#e5110c;
+	font-size:20px;
+}
+.footer ul li {
+	line-height: 17px;
+	margin: 15px 0;
+	font-size: 15px;
+	color: #1c1c1c;
+}
+.footer ul li figure {
+	display: table-cell;
+	vertical-align: middle;
+	color: #ef882b;
+	font-size: 20px;
+}
+.footer ul li .details {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+.footer ul li span.time {
+	color:#7b7b7b;
+	font-size:13px;
+	margin: 10px 0;
+}
+.footer ul li span, .footer ul li a {
+	color: #1c1c1c;
+	display: block;
+	word-wrap: anywhere;
+}
+.footer ul li a:hover {
+	opacity:0.7;
+}
+.footer .social-icons ul {
+	margin-top: 10px;
+}
+.footer .social-icons li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer .social-icons li i {
+	background-color: #e5110c;
+	color: #fff;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	font-size:20px;
+	text-align: center;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+ -ms-transition: a.ll 0.4s ease-in-out 0s;
+}
+.footer .social-icons li i:hover {
+	background-color: #111;
+}
+.copyright {
+	border-top:1px solid #c4c1c1;
+	padding: 30px 0;
+	color: #6d6d6d;
+}
+.copyright p {
+	margin-bottom:0;
+}
+.subpage_content .z-fullimage {
+	background:url(../images/about-slide1.jpg) no-repeat center top fixed;
+	background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-webkit-background-size: contain;
+	-ms-background-size: contain;
+	margin-top:50px;
+	min-height: 700px;
+}
+.attraction_page .z-fullimage {
+	background:url(../images/attraction-slide1.jpg) no-repeat center top fixed;
+}
+.facilities_page .z-fullimage {
+	background:url(../images/facilities-slide1.jpg) no-repeat center top fixed;
+}
+.subpage_content .z_col {
+	padding: 30px;
+	background-color:#ffffff;
+}
+.subpage_content .z_col .sub_title {
+	margin-top:0;
+}
+.subpage_content .z_col ul {
+}
+.subpage_content .z_col li {
+	line-height: 20px;
+	margin: 30px 0;
+}
+.subpage_content .z_col figure {
+	float: left;
+	margin-right: 15px;
+}
+.subpage_content .z_col figcaption {
+	overflow: hidden;
+}
+.subpage_content .carousel .carousel-control {
+	top: 50%;
+	font-size: 40px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);/*	background:red;*/
+}
+.subpage_content .carousel .carousel-control.left {
+	left: 0;
+}
+.subpage_content .carousel .carousel-control.rht {
+	right: 0;
+}
+.subpage_content .carousel .carousel-control i {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+.subpage_content .carousel .carousel-control.left i {
+	left: 15px;
+}
+.subpage_content .carousel .carousel-control.right i {
+	right: 15px;
+}
+.subpage_content .carousel-inner .item {
+	max-height: 350px;
+	max-width:750px;
+}
+.subpage_content .carousel-inner .item img {
+}
+.rooms_page .list_item ul {
+	list-style: outside disc;
+	padding: 0 0 0 15px;
+}
+.rooms_page .list_item ul li {
+	line-height: 20px;
+	margin: 15px 0;
+}
+.rooms_page .z_col li {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 10px 5px 0;
+	margin: 20px 0;
+}
+#reset-button {
+	display:none !important;
+}

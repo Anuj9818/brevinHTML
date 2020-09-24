@@ -1,0 +1,97 @@
+
+.navbar-header h4 {
+	display: none;
+}
+.menu_toggle_header {
+	display: table;
+	width: 100%;
+}
+.menu_toggle_header .logo_holder {
+	display: table-cell;
+	vertical-align: middle;
+	width:25%;
+}
+.menu_toggle_header .nav-header {
+	display: table-cell;
+	vertical-align: middle;
+	width:75%;
+}
+.navbar-inverse {
+	background-color:transparent;
+}
+
+
+.navbar-toggle{
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background:none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #c5d200;
+}
+
+.navbar-collapse.collapse {
+	float:right;
+}
+.navbar-nav > li > a {
+	color: #ac4a97;
+	font-size:16px;
+	padding: 10px 30px;
+	border:1px solid transparent;
+	text-transform:uppercase;
+	font-weight: 600;
+}
+
+.fixNav .navbar-nav > li > a{
+	padding: 15px 30px;
+	color: #fff;
+}
+
+.fixNav .navigation-bar {
+ 
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	padding: 0;
+	box-shadow: 0 0px 1px 1px rgba(0,0,0,0.2);
+	background-color: #ac4a97;
+	
+	
+}
+
+ 
+
+
+.navbar-nav > li.active > a {
+	background-color: #eee;
+	 
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	 
+ 
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse.collapse {
+	float:none;
+}
+.menu_toggle_header .logo_holder {
+	position:fixed;
+	vertical-align:top;
+}
+.menu_toggle_header .nav-header {
+	width:100%;
+}
+
+.navbar-nav > li > a{
+	padding:10px;
+}
+
+}
+
+

@@ -1,0 +1,250 @@
+ charset "utf-8";
+/* CSS Document */
+
+ 
+ /*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.image-set a img {
+	max-width:none;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+ @media (min-width: 1350px) {
+.owl-item .item figure {
+	max-height:none;
+	overflow:visible;
+	max-width: none;
+}
+}
+ @media (min-width: 1601px) {
+.carousel-inner .item img {
+	width:100%;
+}
+img {
+	width:100%;
+}
+}
+ @media (max-width: 1600px) {
+}
+ @media (max-width: 1349px) {
+}
+ @media (max-width: 1349px) and (min-width: 1200px) {
+}
+ 
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1199px) {
+h1 {
+	font-size:30px !important;
+}
+h2 {
+	font-size:26px !important;
+}
+h3 {
+	font-size:22px !important;
+}
+.carousel-inner .item {
+	height:auto;
+}
+}
+ @media (max-width: 1199px) and (min-width: 992px) {
+}
+ @media (max-width: 1199px) and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+
+@media (max-width: 991px) {
+h1 {
+	font-size:26px !important;
+}
+h2 {
+	font-size:23px !important;
+}
+h3 {
+	font-size:20px !important;
+}
+#billboard .carousel-control {
+	display:none;
+}
+.wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.content-holder {
+	padding: 10px 0;
+}
+}
+ @media (max-width: 991px) and (min-width: 768px) {
+}
+ @media (max-width: 880px) {
+}
+ @media (max-width: 800px) {
+}
+ 
+ 
+
+ /* Small Devices, Tablets */
+ 
+@media (max-width: 767px) {
+h1 {
+	font-size:23px !important;
+}
+h2 {
+	font-size:21px !important;
+}
+h3 {
+	font-size:19px !important;
+}
+h4 {
+	font-size:17px !important;
+}
+.navigation-bar .logo_holder {
+	float: right;
+}
+.flt_lft, .flt_rht {
+	float: none;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:20px;
+}
+.thumbnail_big {
+	justify-content: left;
+}
+.thumbnail_big.flt_rht, .thumbnail_big.flt_rht {
+	margin-left:0;
+	margin-right:0;
+}
+#billboard .header {
+	position:static;
+}
+.fixNav .logo_holder img {
+	width:75%;
+}
+.breadCrumbNav {
+	position:static;
+	transform:none;
+	-moz-transform:none;
+	-webkit-transform:none;
+	-o-transform:none;
+	-ms-transform:none;
+}
+.breadCrumbNav .page_title {
+	background: #02070d;
+	padding: 5px 0;
+}
+.footer .col:nth-child(2n+1) {
+	clear:both;
+}
+.testimonial {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef882b+50,1c1c1c+50 */
+background: rgb(239,136,43); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(239,136,43,1) 50%, rgba(28,28,28,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef882b', endColorstr='#1c1c1c', GradientType=0 ); /* IE6-9 */
+}
+.testimonial .col_wrapper .col {
+	display:block;
+	width:100%;
+}
+.testimonial .col_wrapper .lft-col {
+}
+.testimonial .col_wrapper .rht-col {
+	padding: 50px 0;
+}
+}
+ @media (max-width: 640px) {
+h1 {
+	font-size:22px !important;
+}
+h2 {
+	font-size:20px !important;
+}
+h3 {
+	font-size:18px !important;
+}
+h4 {
+	font-size:17px !important;
+}
+.welcome_content .thumbnail_image {
+/*	max-width: 260px;*/
+}
+}
+ @media (max-width: 600px) {
+.fixNav .logo_holder img {
+	width:100%;
+}
+}
+ @media (max-width: 560px) {
+}
+ @media (max-width: 520px) {
+}
+ 
+/* Extra Small Devices, Phones */ 
+@media (max-width: 480px) {
+h1 {
+	font-size:21px !important;
+}
+h2 {
+	font-size:19px !important;
+}
+h3 {
+	font-size:17px !important;
+}
+h4 {
+	font-size:16px !important;
+}
+}
+ @media (max-width: 440px) {
+h1 {
+	font-size:20px !important;
+}
+h2 {
+	font-size:18px !important;
+}
+h3 {
+	font-size:16px !important;
+}
+h4 {
+	font-size:15px !important;
+}
+}
+ @media (max-width: 400px) {
+h1 {
+	font-size:19px !important;
+}
+h2 {
+	font-size:17px !important;
+}
+h3 {
+	font-size:15px !important;
+}
+h4 {
+	font-size:14px !important;
+}
+.footer .col {
+	width:100%;
+}
+}
+ @media (max-width: 360px) {
+}
+ @media (max-width: 320px) {
+}

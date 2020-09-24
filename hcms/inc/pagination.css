@@ -1,0 +1,52 @@
+/* Pagination CSS */
+.pagination{
+	padding: 2px;
+	margin-top:5px;
+}
+
+.pagination ul{
+	margin: 0;
+	padding: 0;
+	text-align: left; /*Set to "right" to right align pagination interface*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+}
+
+.pagination li{
+	list-style-type: none;
+	display: inline;
+	padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+	padding: 0 5px;
+	border: 1px solid #126abd;
+	text-decoration: none !important; 
+	color: #0088cc;
+}
+
+.pagination a:hover, .pagination a:active{
+	border: 1px solid #126abd;
+	color: #000;
+	background-color: #126abd;
+}
+
+.pagination a.currentpage{
+	background-color: #126abd;
+	color: #FFF !important;
+	border-color: #126abd;
+	font-weight: bold;
+	cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+	background-color: white;
+	cursor: default;
+	color: #bebebe !important;
+	border-color: #bebebe;
+	font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+	font-weight: bold;
+}

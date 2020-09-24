@@ -1,0 +1,269 @@
+/*
+Theme Name: IwamuraHospital.com
+Author: Brevin Creation
+Author URI: http://www.brevincreation.com
+Version: 1.0
+*/
+
+html { font-family: 'Roboto', sans-serif; font-size:10pt; }
+body,h1,h2,h3,h4,h5,h6 { margin:0; padding:0; }
+
+h1,h2,h3,h4,h5,h6 { font-weight:normal; }
+
+.clear { clear:both; }
+
+img { max-width:100%; height:auto; }
+
+hr { height: 1px; border: 0; background-color: #f1e5c0; }
+
+a { color:#333; text-decoration:none;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;}
+a:hover { color:#d12800; }
+
+a.seeDetailMenu { font-size:11pt; font-weight:bold; color:#d12800; }
+
+a.department { width:35%; padding:2% 5%; margin:0 2% 2% 0; border:1px solid #dfc3bf; display:block; float:left; font-size:11pt; font-weight:bold; color:#515151; }
+a.department:hover { background:#a52613; color:#fff; }
+
+a.photolink {
+	display: block; width:140px; height:120px; padding:5px;
+	border:1px solid #cecbb6;
+}
+a.photolink:hover {
+	background-color:#cecbb6; border:1px solid #cecbb6;
+}
+
+.container { width:1140px; margin:0 auto; }
+
+/* HEADER */
+
+#header-wrap { width:100%; height:auto; margin:0; padding:0; background:#fff; }
+#header { width:1140px; height:auto; margin:0 auto; padding:10px 30px; }
+
+.logo { width:358px; height:auto; float:left; }
+.emergency { width:200px; height:auto; padding:10px 20px; float:right; background:#d12800; }
+.emergency h4 { margin:0; padding:0; font-size:10pt; color:#fff; }
+.emergency h3 { margin:0; padding:0; font-size:14pt; color:#fff; }
+
+/* NAVIGATION */
+#nav { width:1140px; height:auto; margin:0 auto; padding:0 0 10px 0; }
+
+.slider { position:relative; }
+.slider h1 { position:absolute; bottom:15%; left:5%; z-index:1; padding:5px 10px; background:#dd1f26; font-size:130%; color:#fff; opacity:.9; }
+.slider h2 { position:absolute; bottom:8%; left:5%; z-index:1; padding:5px 10px; background:#0c486e; font-size:100%; color:#fff; opacity:.9; }
+
+/* CONTENT */
+#content-wrap { width:100%; height:auto; margin:0px 0; padding:0; }
+#content { width:1140px; height:auto; margin:0 auto; padding:20px 0; border-bottom:1px solid #f0eeee; }
+
+
+/*///////////////// SUBPAGE /////////////////*/
+#subpage-wrap { width:1140px; height:auto; margin:0 auto; padding:0px 0 18px 0; border-top:5px solid #c42929; border-bottom:1px solid #f1e5c0; }
+.subpage { width:100%; height:auto; margin:0; padding:20px 0; }
+.subpage h1 { width:100%; padding:0 0 10px 0; margin:0 0 20px 0; border-bottom:1px solid #f1e5c0; font-size:20pt; color:#d12800; }
+.subpage h2 { padding:0 0 10px 0; text-align:left; font-size:16pt; color:#515151; }
+.subpage h3 { padding:0 0 10px 0; font-size:14pt; font-weight:bold; color:#1e6cb6; }
+
+.subpage p { padding:0px; margin:0; text-align:justify; line-height: 14pt; }
+.subpage strong { color:#333; font-size:1.2em; }
+.subpage b { color:#252525; font-size:1.4em; }
+.subpage ul,ol { margin:10px 0 10px 25px;}
+
+
+.bod { margin:0px; padding:30px; border-bottom:1px dotted #f2f2f2; background:#fff; width:310px; height:250px; float:left; text-align:center; }
+.bod:hover{ background:#fafaf9; }
+
+
+
+
+
+ul.listings { list-style-type:none; margin:0px 0; padding:0px; }
+ul.gallery { list-style-type:none; margin:0px 0; padding:0px; }
+ul.gallery li { float:left; margin:0 10px 10px 0; }
+ul.gallery li:last-child { margin:0 0px 0 0; padding:0px; }
+
+
+/*///////////////// RIGHT /////////////////*/
+.right { width:237px; height:auto; margin:0; padding:18px; float:right; }
+.news { width:100%; height:auto; margin:0 0 15px 0; padding:0px; background:#fff; }
+.news h1 { width:100%; padding:0 0 10px 0; margin:0 0 20px 0; border-bottom:1px solid #f1e5c0; font-size:15pt; color:#d12800; }
+.news ul { list-style:none; margin:0; padding:0; }
+.news ul li { padding:0 0 5px 0; margin:0 0 5px 0; border-bottom:1px solid #f2f2f2; }
+.news ul li:last-child { margin-right:0px; }
+.news ul li img { width:80px; float:left; margin:0 10px 10px 0; }
+.news ul li p { }
+.news ul li a { font-size:11pt; font-weight:bold; color:#333; }
+.news ul li a:hover { color:#d12800; }
+
+
+/* HOME FACILITIES */
+#home-facilities { width:100%; height:auto; margin:0px 0; padding:30px 0; background:#e1c6c7; text-align: center; }
+#home-facilities h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; text-align:center; color:#d12800; }
+.home-facilities-list { width:273px; margin:0 16px 0 0; padding:0; float:left; text-align:center; }
+.home-facilities-list:last-child { margin:0 0px 0 0; padding:0; }
+.home-facilities-list img { width:80px; height:auto; margin:30px 0; border-radius: 50%; background:#fff; padding:10px; text-align: center; }
+.home-facilities-content { padding:20px; text-align:center; }
+.home-facilities-content h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; color:#d12800; }
+.home-facilities-content p { margin:0px; padding:0px; }
+
+
+/* HOME NEWS */
+#home-news { width:100%; height:auto; margin:0px 0; padding:30px 0; background:#e1e6ea; }
+#home-news h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; text-align:center; color:#d12800; }
+.home-news-list { width:273px; margin:0 16px 0 0; padding:0; float:left; text-align:center; }
+.home-news-list:last-child { margin:0 0px 0 0; padding:0; }
+.home-news img { width:100%; height:auto; max-height:200px; margin:0px 0; text-align: center; }
+.home-news-content { padding:20px; text-align:center; background:#dd1f26; }
+.home-news-content p { margin:0px; padding:0px; color:#f6f6f6; }
+.home-news-content a { display:block; margin-bottom:15px; text-decoration:none; font-size:16px; color:#fff; }
+.home-news-content a:hover { text-decoration:none; color:#000; }
+
+
+
+#gallery_section { width:100%; height:auto; margin:30px 0; padding:0; }
+#gallery_section h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; text-align:center; color:#d12800; }
+.gallery_list { width:270px; margin-right:30px; padding:0; float:left; }
+.gallery_list:last-child { margin-right:0px; }
+.gallery_list img { width:100%; height:auto; }
+
+
+
+/* HOME BANNERS */
+#home-banner { max-width:1140px; height:auto; margin:0; padding:0; }
+#home-banner ul { list-style:none; margin:0; padding:0; }
+#home-banner ul li { width:370px; height:auto; margin:0 15px 0 0; float:left; }
+#home-banner ul li:last-child { margin:0 0px 0 0; }
+#home-banner ul li a {
+	padding:20px 20px 20px 65px; display:block; border:1px solid #f0eeee;
+	text-transform:uppercase; text-decoration:none; font-size:14pt; color:#181818;
+	background:url(images/icon-plus.png) no-repeat 20px center;
+}
+#home-banner ul li a:hover { color:#fff; background:#a52613 url(images/icon-plus.png) no-repeat 30px center; }
+
+
+#affiliations {
+	width:1140px; height:auto; margin:0px auto; padding:10px 30px; clear:both; border-bottom:1px solid #f0eeee;
+	background:#fff; vertical-align: bottom; text-align:center;
+}
+#affiliations h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; color:#d12800; }
+#affiliations ul { list-style:none; padding:0 0 10px 0; margin:0 0 20px 0; clear:both;vertical-align: bottom; display: table-cell; }
+#affiliations ul li { padding:0 10px 10px 0; margin:0 10px 10px 0; float:left; border-right:1px solid #eee; }
+#affiliations ul li:last-child{ border-right:none; }
+#affiliations img { max-width:100%; height:67px; display:inline; margin:0 20px 20px 0; }
+
+
+/* DOWN LINKS */
+.down-link-wrap { width:100%; height:auto; margin:0px; padding:30px 0; background:#0c486e; }
+.down-link { width:333px; height:auto; margin-right:20px; padding:18px; float:left; color:#fff; }
+.down-link h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; color:#e1c6c7; }
+.down-link ul { list-style:square; margin:0 0 0 20px; }
+.down-link ul li { margin-bottom:5px; padding-bottom:5px; border-bottom:1px dotted #115179; color:#fff; }
+.down-link ul li a { color:#fff; }
+.down-link ul li a:hover { color:#e1c6c7; }
+
+.down-social { width:233px; height:auto; padding:18px; float:left; }
+.down-social h1 { margin:0 0 20px 0; padding:0px; font-size:14pt; color:#e1c6c7; }
+.down-social ul { list-style:none; margin:0 0 0 0px; }
+.down-social ul li { margin:0 8px 0 0; padding:0px; float:left;}
+
+a.facebook { display: block;	width: 34px;height: 34px;	text-decoration: none;	background: url("images/social_fb.png"); background-position:0 -34px; }
+a.facebook:hover {background-position:0 0;}
+	.fbdisplace {position: absolute;left: -5000px;}
+
+a.twitter {	display: block;	width: 34px;	height: 34px;	text-decoration: none;	background: url("images/social_tw.png");	}
+a.twitter:hover { background-position:0 -34px;	}
+	.twdisplace { position: absolute;	left: -5000px;	}
+
+a.youtube {	display: block;	width: 34px;	height: 34px;	text-decoration: none;	background: url("images/social_yt.png"); background-position:0 -34px; }
+a.youtube:hover { background-position:0 0;	}
+	.ytdisplace { position: absolute;	left: -5000px;	}
+
+
+/* FOOTER */
+#footer { max-width:1140px; height:auto; padding:20px 0; margin:0px auto; border-top:1px solid #fff; font-size:10pt; }
+.copyright { float:left; color:#2c2b2c; }
+.copyright span { color:#d12800; }
+.powered { float:right; text-align:right; color:#2c2b2c; }
+.powered a { text-decoration:none; color:#d12800; }
+.powered a:hover { color:#e73526; }
+
+
+/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
+
+@media (max-width: 1200px){	
+	p { font-size:9pt; }
+	#header,#nav,#slider,#footer { width:90%; height:auto; margin:0; padding:1% 5%; }
+
+	.logo { width:45%; height:auto; float:left; }
+	.logo img { max-width:100%; height:auto; padding:0; }
+	.emergency { width:45%; height:auto; padding:15px 20px; float:right; background:#d12800; }
+
+	#content { width:90%; height:auto; margin:0 auto; padding:2% 0; }
+
+	#subpage-wrap { width:90%; height:auto; border-top:none; }
+	.subpage { width:71.18%; height:auto; margin:0; padding:1.69%; float:left; background:#fff; }
+
+	.right { width:23.72%; height:auto; margin:0; padding:0; float:right; }
+	.news { width:92%; height:auto; margin:0 0 15px 0; padding:4%; background:#fff; }
+
+	#home-facilities { width:100%; height:auto; }
+	#home-facilities ul { list-style:none; margin:0; padding:0; }
+	#home-facilities ul li { width:23.68%; margin:0 1.40% 0 0; padding:0; float:left; }
+	#home-facilities ul li:last-child { margin:0 0px 0 0; }
+	#home-facilities ul li img { max-width:100%; height:auto; padding:0; }
+	.home-facilities-content { margin-top:-5px; padding:6%; text-align:center; }
+	.home-facilities-content h1 { margin:0 0 2% 0; padding:0px; font-size:90%; color:#d12800; }
+
+	#home-banner ul li { width:32.45%; height:auto; margin:0 1.31% 0 0; float:left; }
+	#home-banner ul li a { font-size:90%; }
+	
+	#affiliations { width:90%; height:auto; margin:0px auto; padding:5%; }
+
+	.down-link-wrap {
+		width:90%; height:auto; margin:0px auto; padding:0 5%;
+	}
+	.down-link { width:23.68%; margin:0 1.40% 0 0; padding:0; float:left;; }
+	.down-social { width:23.68%; margin:0 0 0 0; padding:0; float:left; }
+	
+	#footer { font-size:90%; }
+
+}
+
+/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
+
+@media (max-width: 768px){
+	
+}
+
+/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
+
+@media (max-width: 515px){
+	img { max-width:100%; height:auto; margin:0 0 20px 0; padding:0; }
+
+	p { font-size:11pt; }
+
+	.logo { width:100%; height:auto; float:none; }
+	.emergency { width:90%; height:auto; padding:3% 5%; float:none; background:#d12800; }
+
+	.subpage { width:90%; height:auto; margin:0 0 5% 0; padding:4% 5%; float:none; background:#fff; text-align:center; }
+	.subpage img { width:100%; height:auto; margin:0 0 4% 0; float:none; }
+	.right { width:90%; height:auto; margin:0; padding:4% 5%; float:none; }
+	ul.listings li { margin:0 0 20px 0; padding:0px; }
+
+	.bod { width:46%; min-height:260px; margin:0px; padding:2%; border-bottom:1px dotted #f2f2f2; background:#fff; float:left; text-align:center; }
+
+	a.department { width:90%; padding:2% 5%; margin:0 0 2% 0; }
+
+	#home-facilities ul li { width:49%; margin:0 1% 2% 0; padding:0; float:left; }
+	#home-banner ul li { width:100%; height:auto; margin:0 0 3% 0; }
+
+	.down-link { width:48%; margin:0 1% 2% 0; padding:0; float:left; }
+	.down-social { width:49%; margin:0 0 2% 0; padding:0; float:left; }
+
+	#copyright { width:70%; margin:0 auto 2% auto; padding:0px; float:none; text-align:center; }
+	#powered { width:auto; padding:0px; float:none; text-align:center; }
+}

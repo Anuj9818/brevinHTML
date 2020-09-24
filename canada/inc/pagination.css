@@ -1,0 +1,50 @@
+/* Pagination CSS */
+.pagination{
+	padding: 2px;
+	margin-top:5px;
+}
+
+.pagination ul{
+	margin: 0;
+	padding: 0;
+	text-align: left; /*Set to "right" to right align pagination interface*/
+}
+
+.pagination li{
+	list-style-type: none;
+	display: inline;
+	padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+	padding: 0 5px;
+	border: 1px solid #333;
+	text-decoration: none !important; 
+	color: #333;
+}
+
+.pagination a:hover, .pagination a:active{
+	border: 1px solid #912e29;
+	color: #000;
+	background-color: #912e29;
+}
+
+.pagination a.currentpage{
+	background-color: #912e29;
+	color: #FFF !important;
+	border-color: #912e29;
+	font-weight: bold;
+	cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+	background-color: white;
+	cursor: default;
+	color: #bebebe !important;
+	border-color: #bebebe;
+	font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+	font-weight: bold;
+}

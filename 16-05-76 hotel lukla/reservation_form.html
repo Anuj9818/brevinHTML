@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<title>Lukla  | Reservation_form</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome-4.7.0.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css" />
+<link rel="stylesheet" type="text/css" href="lightbox/css/lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="SmartDroddownMenus/smart_dropdown.css">
+<link rel="stylesheet" type="text/css"  href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/side_nav.css" />
+<link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i&display=swap" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<header class="header"><!--../header starts-->
+  <div id="pav-mainnav"><!-- ./pav-mainnav-->
+    <div class="navigation-bar"><!-- ./navigation-bar-->
+      <div class="container">
+        <div class="menu_toggle_header">
+          <figure class="logo_holder"><a href="index.html"> <img src="images/main_logo.png"> </a></figure>
+          <div class="nav-header">
+            <div id="mainContent">
+              <div id="myCanvasNav" class="overlay3" onclick="closeOffcanvas()" style="width: 0%; opacity: 0;"></div>
+              <div id="myOffcanvas" class="offcanvas" >
+                <div class="navbar navbar-default" role="navigation"> <!--//Navbar -->
+                  <div class="side_nav"><!--nav-collapse-->
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html"> Home </a> </li>
+                      <li><a href="#"> About Us <span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="about_hotel.html">About hotel</a></li>
+                          <li><a href="about_lukla.html">About lukla </a></li>
+                          <li><a href="team.html">Our Team</a></li>
+                          <li><a href="testimonials.html">Testimonails</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="accomodation.html">Accommodation</a> </li>
+                      <li><a href="facilities.html"> Facilities </a></li>
+                      <li><a href="dining.html"> Dining </a></li>
+                      <li><a href="gallery_listing.html"> Gallery </a></li>
+                      <li><a href="contact_us.html"> contact us </a> </li>
+                    </ul>
+                  </div>
+                  <!--/.nav-collapse --> 
+                </div>
+                <!--//Navbar --> 
+              </div>
+              <!--offcanvas-->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"  onclick="openNav3();openOffcanvas()"> <span class="toggle-bar"></span> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ./navigation-bar--> 
+  </div>
+  <!-- ./pav-mainnav--> 
+</header>
+<!--../header ends-->
+
+<section class="sub_page-banner">
+  <figure class="full_banner"> <img src="images/sub_banner7.png"> </figure>
+  <div class="container breadCrumb_container">
+    <div class="breadCrumbNav">
+      <h1 class="breadCrumb_title">Reservation_form</h1>
+    </div>
+   </div>
+</section>
+
+<!--//Reservation_form starts-->
+
+<section class="inner_page pad_top reservation_page">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-1 col-sm-10">
+        <div class="center">
+          <h2 class="section_title center">Reservation Form</h2>
+          <h4 class="quote">Please fill up all the details for booking with us</h4>
+        </div>
+       
+          <form role="form">
+           <div class="row mar_top">
+            <div class="form-group col-sm-12">
+              <label for="name">Full Name :</label>
+              <p>
+                <input id="name" class="form-control" type="text" >
+              </p>
+            </div>
+            <div class="form-group col-sm-12">
+              <label for="email">Email :</label>
+              <p>
+                <input id="email" class="form-control" type="email">
+              </p>
+            </div>
+            <div class="form-group col-sm-12">
+              <label for="phone">Tel/Mobile :</label>
+              <p>
+                <input id="phone" class="form-control" type="tel">
+              </p>
+            </div>
+            <div class="form-group col-sm-12">
+              <label for="room">Reservation for : </label>
+              <p>
+                <select id="room" class="form-control">
+                  <option value="1">Single bed room</option>
+                  <option value="2">Double bed room</option>
+                </select>
+              </p>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="date_in">Check In Date :</label>
+              <p>
+                <input id="date_in" class="form-control" type="date" placeholder="">
+              </p>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="date_out">Check out  Date :</label>
+              <p>
+                <input id="date_out" class="form-control" type="date" placeholder="">
+              </p>
+            </div>
+            <div class="form-group col-sm-4">
+              <label for="adult">Adults per room :</label>
+              <p>
+                <select id="adult" class="form-control">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </p>
+            </div>
+            <div class="form-group col-sm-4">
+              <label for="guest">Max. guests :</label>
+              <p>
+                <select id="guest" class="form-control">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </p>
+            </div>
+            <div class="form-group col-sm-4">
+              <label for="child">child :</label>
+              <p>
+                <select id="child" class="form-control">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </p>
+            </div>
+            
+             <div class="form-group col-sm-12">
+              <label for="queries">Your Questions and Queries  :</label>
+              <p>
+                <textarea id="queries" class="form-control" ></textarea>
+              </p>
+            </div>
+            
+           <div class="form-group col-sm-12">
+              <label for="verification">Verification Code :</label>
+              <p> <img src="images/recaptcha_img.jpg"> </p>
+            </div>
+            <div class="form-group">
+              <label for="submit"> </label>
+              <p>
+                <input id="submit" class="btn btn_submit" type="submit" value="Submit">
+              </p>
+            </div>
+     
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--// footer starts-->
+<footer class="footer pad_top">
+  <div class="footer-social-icons">
+    <div class="container inner_content">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container center">
+    <div class="footer_contact_info">
+      <h3 class="footer_cont_title">Contact with Us</h3>
+      <div class="mar_top footer_cont_details">
+        <h4 class="footer_cont_info">870 Re-Place, Contact Address, Nepal  Telepohone: +1 800 603 6035. </h4>
+        <a href="mailto:Info@hikersinnlukla.com" class="footer_linkto">Email : Info@hikersinnlukla.com</a> </div>
+    </div>
+    <div class="footer_page_link">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"> Home </a> </li>
+        <li><a href="#"> About Us </a> </li>
+        <li><a href="truck.html">Accommodation </a></li>
+        <li><a href="truck.html"> Facilities </a></li>
+        <li><a href="truck.html"> Dining </a></li>
+        <li><a href="truck.html"> Gallery </a></li>
+        <li><a href="contact_us.html"> contact us </a> </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p>Copyright 2019 <span> hikersininlukla. </span>. All Rights Reserved. Website Design by <a href="http://www.brevincreation.com" target="_blank" class="company_link">Brevin Creation</a> </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--// footer ends--> 
+
+<section class="back_top">
+  <div class="container">
+    <div id="back-top" style="display: block;"> <a href="#top" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a> </div>
+  </div>
+</section> 
+
+<script src="js/jquery-1.9.1.min.js"></script> 
+<script src="js/fixed-nav.js"></script> 
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/Push up jquery.js"></script> 
+<script type="text/javascript" src="SmartDroddownMenus/smart_dropdown.js"></script> 
+<script type="text/javascript" src="js/side_nav.js"></script> 
+
+
+
+</body>
+</html>

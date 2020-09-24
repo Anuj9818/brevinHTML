@@ -1,0 +1,322 @@
+
+/*<<<<<<<<<<<<<MENU CSS STARTS>>>>>>>>>*/
+
+.navbar-header h4 {
+	display: none;
+}
+.menu_toggle_header {
+	display: table;
+	width: 100%;
+}
+.menu_toggle_header .logo_holder {
+	display: table-cell;
+	vertical-align: middle;
+	width:25%;
+}
+.menu_toggle_header .nav-header {
+	display: table-cell;
+	vertical-align: middle;
+	width:75%;
+}
+.navbar-inverse {
+	background-color:transparent;
+}
+.navbar-toggle{
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background:none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-collapse.collapse {
+	float:right;
+}
+.navbar-nav > li > a {
+	color:#fff;
+	font-size:16px;
+	padding: 10px 30px;
+	border:1px solid transparent;
+}
+.navbar-nav > li.active > a {
+	background-color:#055484;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color:transparent;
+	border:1px solid #fff;
+}
+/*<<<<<<<<<<<<<WELCOME CSS STARTS>>>>>>>>>*/
+
+.welcome_img.flt_lft {
+	margin-right:50px;
+}
+.welcome_img.flt_rht {
+	margin-left:50px;
+}
+.welcome_content .container {
+	display:table;
+	width:100%;
+}
+.welcome_content .welcome_img {
+	display:table-cell;
+	vertical-align:middle;
+	width:50%;
+	padding-right: 5%;
+}
+.welcome_content .welcone_caption {
+	display:table-cell;
+	vertical-align:middle;
+	width:50%;
+}
+/*<<<<<<<<<<<<<WORK  CSS STARTS>>>>>>>>>*/
+
+
+.work_content {
+	background:url(../images/work_banner.png) no-repeat center;
+	background-size:cover;
+}
+.work_content .owl-item .item figure {
+	max-width:360px;
+}
+.work_content .owl-theme .owl-controls .owl-buttons div {
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+}
+.work_content .owl-theme .owl-controls .owl-buttons .owl-prev::before {
+ 
+	content:"\f060";
+}
+.work_content .owl-theme .owl-controls .owl-buttons .owl-next::before {
+ 
+   content:"\f061";
+}
+/*<<<<<<<<<<<<<About us CSS STARTS>>>>>>>>>*/
+
+
+
+.about_us {
+	position:relative;
+	background:url(../images/about_us_shape.png) no-repeat center bottom;
+}
+/*<<<<<<<<<<<<<Brand CSS STARTS>>>>>>>>>*/
+
+
+.brand_bar {
+	background:url(../images/brand_banner.png) no-repeat center;
+	background-size:cover;
+}
+/*<<<<<<<<<<<<<Services CSS STARTS>>>>>>>>>*/
+
+
+.services_content, .team_content, .inner_services_content {
+	background-color:#f9f9f9;
+}
+.service_thumnails .col, .team_content .col, .client_content .col, .inner_client_content .col, .inner_service_thumnails .col {
+	margin-bottom:30px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 24%;
+	text-align: center;
+	padding: 0 30px;
+}
+.service_thumnails .outer_shape {
+ 
+	background-size: contain;
+ 
+}
+
+
+
+.service_thumnails figure {
+    /*overflow: hidden;*/
+}
+
+.service_thumnails figure img {
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+}
+
+.service_thumnails figure:hover img {
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+ 
+.main_img h4 {
+	color:#111111;
+	font-size:17px;
+}
+/*>>>>>>>>>CLIENT LOGO CSS STARTS<<<<<<<<<<<<<<<<<*/
+
+.client_logo .owl-theme .owl-controls .owl-buttons div {
+	height: 42px;
+	width: 42px;
+	line-height:42px;
+}
+.client_logo .owl-theme .owl-controls .owl-buttons .owl-prev::before {
+ 
+   content:"\f177";
+}
+.client_logo .owl-theme .owl-controls .owl-buttons .owl-next::before {
+	 
+content:"\f178";
+}
+/*<<<<<<<<<<<FOOTER CSS STARTS>>>>>>>>>>>>>>>>*/
+
+
+.footer {
+	background:url(../images/footer_bg-img.png) no-repeat #dbe8ef;
+	background-size: cover;
+	background-position: right center;
+	height: 520px;
+	position: relative;
+}
+.footer_content {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.footer_title {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.footer_content address {
+	padding: 10px 0;
+	display: table;
+	width: 100%;
+}
+.footer_content .icon {
+	display: table-cell;
+	vertical-align: middle;
+	width: 5%;
+}
+.footer_content .icon i {
+	border: 1px solid #161616;
+	width: 32px;
+	height: 32px;
+	color: #161616;
+	font-size: 19px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 50%;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+.footer_content .details {
+	display: table-cell;
+	padding-left: 10px;
+	vertical-align: middle;
+	color: #c5c2c2;
+	width: 95%;
+}
+.footer_content a, .footer_content span {
+	color: #161616;
+	display: block;
+	font-size: 15px;
+}
+.footer_content a:hover {
+	text-decoration:underline !important;
+}
+.footer-social-icons {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footer-social-icons li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.footer-social-icons li i {
+	color:#1e8bcc;
+	background-color:#ffffff;
+	border-radius:4px;
+	padding: 8px 10px;
+	font-size:16px;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+.footer-social-icons li i:hover {
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*ABOUT US PAGE CSS STARTS*/
+
+.border_title {
+	border-bottom:1px solid #111111;
+	overflow: hidden;
+}
+.team_content .team_img {
+	max-width: 240px;
+	max-height: 210px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.team_caption h4 {
+	font-size:16px;
+	color:#26a0e9;
+	margin-bottom: 0;
+}
+/*<<<<<<<<<<<<WORK PAGE CSS STARTS>>>>>>>>>>>>>>>*/
+
+.work_list_content .col {
+	margin-bottom: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	text-align: center;
+	padding: 0 30px;
+}
+/*<<<<<<<<<<<<CLIENT PAGE CSS STARTS>>>>>>>>>>>>>>>*/
+
+.client_content .logo_img, .inner_client_content .logo_img {
+	border: 1px solid #bebebe;
+	padding: 15px;
+}
+/*<<<<<<<<<<<CONTACT PAGE CSS STARTS>>>>>>>>>>>>>*/
+
+.contact_form .form-group {
+	margin-bottom: 30px;
+}
+.contact_form .btn_submit {
+	background-color: #26a0e9;
+	display: block;
+	margin: 10px auto 0;
+	border: 1px solid transparent;
+	color: #fff;
+	padding: 10px 50px;
+	font-weight: 600;
+}

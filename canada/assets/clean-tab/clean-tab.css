@@ -1,0 +1,58 @@
+/*
+	Structure
+	--------------------------------------------------
+*/
+
+.wrap {
+margin: 0px auto;
+width: 100%;
+}
+.set, .panel {
+margin: 0 0 10px 0;
+}
+/*
+	Tabs
+	--------------------------------------------------
+*/
+
+.tabs .panel {
+	padding:20px 0; margin:0;
+}
+
+.tabs .panel ul,ol {
+	list-style:none; padding:0 0 0 0px; margin:10px 0 0 0;
+}
+.tabs .panel ul li,.tabs .panel ol li {
+	padding:0 0 10px 20px; background:url(arrow.png) no-repeat left 5px;
+}
+
+
+.tabs-menu {
+padding: 0 0px; margin:0 0 0px 0; border-bottom:none;
+}
+
+.tabs-menu ul {
+	list-style:none; margin:0; padding:0;
+}
+
+.tabs-menu li {
+display: inline-block; position: relative; cursor: pointer;
+background-color: #333;
+ *display: inline;
+zoom: 1;
+margin: 0 0px 0px 0; padding: 10px 20px;
+font-size:1.1em; color:#fff;
+}
+
+.tabs-menu .active-tab {
+background-color: #ba3029; color:#fff; border-bottom:none;
+}
+
+/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
+
+@media (max-width: 515px)
+{
+	.tabs-menu li {
+	 width:90%; padding:3% 5%; margin-bottom:1%;
+	}	
+}

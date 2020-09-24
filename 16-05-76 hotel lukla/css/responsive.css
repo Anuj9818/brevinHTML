@@ -1,0 +1,343 @@
+ 
+  @media (min-width: 1601px) {
+
+.carousel-inner .item img {
+	width:100%;
+	height:auto;
+
+}
+
+
+.owl-item .item figure {
+	max-height:none;
+/*	max-width:none;*/
+}
+
+.owl-item .item img {
+/*	width:100%;*/
+}
+
+.modal-dialog {
+	width:auto;
+	max-width:none;
+}
+
+}
+ @media (max-width: 1600px) {
+}
+ @media (max-width: 1349px) {
+}
+ @media (max-width: 1349px) and (min-width: 1200px) {
+}
+ 
+/* Large Devices, Wide Screens */
+
+@media (max-width: 1199px) {
+h1 {
+	font-size:30px !important;
+}
+h2 {
+	font-size:26px !important;
+}
+h3 {
+	font-size:22px !important;
+}
+.carousel-inner .item {
+	/*height:auto;*/
+}
+.container {
+	padding:0 15px;
+}
+ 
+ 
+  
+ #banner_board #owl-demo figure{
+display: flex;
+display: -webkit-flex;
+	 
+ }
+ 
+ 
+ #banner_board #owl-demo img {
+
+   width: auto;
+
+}
+
+
+.sub_facilities_content .col {
+ 
+width: 24.33%;
+ 
+}
+ 
+ 
+}
+ @media (max-width: 1199px) and (min-width: 992px) {
+}
+ @media (max-width: 1199px) and (min-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+
+/* Medium Devices, Desktops */
+
+@media (max-width: 991px) {
+h1 {
+	font-size:26px !important;
+}
+h2 {
+	font-size:23px !important;
+}
+h3 {
+	font-size:20px !important;
+}
+#billboard .carousel-control {
+	display:none;
+}
+.wrapper {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+ 
+ .inner_testimonial_figure{
+	 padding-right:10px;
+ }
+ 
+ 
+}
+ @media (max-width: 991px) and (min-width: 768px) {
+ 
+}
+ @media (max-width: 880px) {
+}
+ @media (max-width: 800px) {
+}
+
+ /* Small Devices, Tablets */
+ 
+@media (max-width: 767px) {
+h1 {
+	font-size:23px !important;
+}
+h2 {
+	font-size:21px !important;
+}
+h3 {
+	font-size:19px !important;
+}
+h4 {
+	font-size:17px !important;
+}
+
+
+.thumbnail_lft, 
+.thumbnail_rht {
+	float:none;
+	max-width: none;
+	/*max-height: 230px;*/
+	margin: 0 0 20px;
+}
+ 
+.flt_lft, 
+.flt_rht {
+	float: none;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:20px;
+}
+ 
+ 
+ .flt_lft img, 
+.flt_rht img{
+	width:100%;
+}
+ 
+ 
+ 
+.header {
+/*	position:static;*/
+}
+ 
+.logo_holder img {
+	width: 100%;
+	float: right;
+}
+.fixNav .logo_holder img {
+	width: 100%;
+}
+ 
+.breadCrumbNav {
+	position: static;
+	transform: none;
+	background-color:#f8931d;
+}
+ 
+
+ 
+ 
+ .breadCrumb_container{
+	 padding:0;
+ }
+ 
+ .carousel-inner .item img{
+    width:auto;
+}
+
+ 
+.carousel .container {
+	padding:0;
+}
+.carousel .slide-caption {
+	position:static;
+	transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	background-color: #204b80;
+	padding: 15px;
+}
+ 
+ 
+ #back-top a{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+}
+
+
+.sub_facilities_content .col{
+	width: 33%;
+}
+
+
+
+
+.lukla_txt,
+.lukla_img,
+.lukla_img img
+{
+	width:100%;
+	display:block;
+}
+ 
+
+}
+ @media (max-width: 640px) {
+h1 {
+	font-size:22px !important;
+}
+h2 {
+	font-size:20px !important;
+}
+h3 {
+	font-size:18px !important;
+}
+h4 {
+	font-size:17px !important;
+}
+
+.sub_facilities_content .col,
+.team_content .col
+{
+	width:49%
+}
+
+
+figure.team_img,
+figure.team_img img,
+
+.inner_testimonial_figure img
+{
+	width:100px;
+	height:100px;
+}
+
+
+}
+ @media (max-width: 600px) {
+}
+ @media (max-width: 560px) {
+}
+ @media (max-width: 520px) {
+}
+ 
+/* Extra Small Devices, Phones */ 
+@media (max-width: 480px) {
+h1 {
+	font-size:21px !important;
+}
+h2 {
+	font-size:19px !important;
+}
+h3 {
+	font-size:17px !important;
+}
+h4 {
+	font-size:16px !important;
+}
+ 
+ .sub_facilities_content .col,
+ .team_content .col
+ {
+	width:100%
+}
+.sub_facilities_icon,
+h4.sub_facilities_title
+{
+	margin: 0 auto;
+}
+
+
+ .inner_testimonial_figure,
+ .inner_testimonial_caption
+ {
+	 display:block;
+	 width:100%;
+ }
+
+ 
+ 
+}
+ @media (max-width: 440px) {
+h1 {
+	font-size:20px !important;
+}
+h2 {
+	font-size:18px !important;
+}
+h3 {
+	font-size:16px !important;
+}
+h4 {
+	font-size:15px !important;
+}
+}
+ @media (max-width: 400px) {
+h1 {
+	font-size:19px !important;
+}
+h2 {
+	font-size:17px !important;
+}
+h3 {
+	font-size:15px !important;
+}
+h4 {
+	font-size:14px !important;
+}
+ 
+}
+ @media (max-width: 360px) {
+}
+ @media (max-width: 320px) {
+	 .contact_form .col {
+    width: 100%;
+}
+
+.footer .col{
+	width:100%;
+}
+
+}

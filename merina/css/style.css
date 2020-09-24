@@ -1,0 +1,124 @@
+.work_content {
+	background-color:#1e2759;
+	padding: 30px 0 0;
+}
+.no_bg{
+	background-color:transparent;
+	
+}
+
+
+.no_bg.work_content  h3{
+	color: #6e695f;
+	
+}
+
+
+.work_content .item .work_img {
+	max-width:260px;
+}
+.work_content h3 {
+	color:#fff;
+}
+.gallery_content .col,
+.work_content .col
+
+ {
+	margin-bottom: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	text-align: center;
+	padding: 0 30px;
+}
+
+
+.work_content .col{
+	width: 24%;
+}
+
+
+
+.video_wrapper{
+	padding: 25px 0 0;
+}
+
+
+
+.gallery_content .col figure {
+	max-width:360px;
+}
+.contact_bg {
+	background-color:#1e2759;
+}
+h1.footer_title {
+	font-family: 'Kadwa', serif;
+	font-size:190px;
+	color:#fff;
+	margin:0;
+}
+.footer_contact_info h3 {
+	text-transform:uppercase;
+	color:#c8a250;
+	font-weight: 400;
+}
+.footer_contact_info address {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+	padding: 20px;
+	margin: 0 auto;
+}
+.footer_contact_info .icon i {
+	border:2px solid #ebebeb;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	line-height: 70px;
+	text-align: center;
+	font-size: 40px;
+	color: #575757;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+.footer_contact_info .details {
+	margin-top: 10px;
+}
+.footer_contact_info .details span,  .footer_contact_info .details a {
+	display: block;
+	color: #6e695f;
+}
+.footer-social-icons {
+	text-align:center;
+}
+.footer-social-icons li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.footer-social-icons li i {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	background-color:#575757;
+	color: #fff;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+}
+
+
+
+.contact_form .btn_submit{
+	margin-top:0;
+}
+
+
+ 

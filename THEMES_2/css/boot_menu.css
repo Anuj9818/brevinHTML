@@ -1,0 +1,105 @@
+
+.menu_toggle_header .navbar-header .mobile_logo{
+	display: none;
+}
+.menu_toggle_header {
+	display: table;
+	width: 100%;
+}
+.menu_toggle_header .logo_holder {
+	display: table-cell;
+	vertical-align: middle;
+	width:25%;
+}
+.menu_toggle_header .nav-header {
+	display: table-cell;
+	vertical-align: middle;
+	width:75%;
+}
+.navbar-inverse {
+	background-color:transparent;
+}
+
+
+.navbar-toggle{
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background:none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #00c7fe;
+}
+
+.navbar-collapse.collapse {
+	float:right;
+}
+.navbar-nav > li > a {
+	color: #00c7fe;
+	font-size:14px;
+	padding: 10px 30px;
+	border:1px solid transparent;
+	text-transform:uppercase;
+	font-weight: 600;
+}
+
+.fixNav .navbar-nav > li > a{
+	padding: 15px 30px;
+	 
+}
+
+.fixNav .navigation-bar {
+ 
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-o-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	padding: 0;
+	box-shadow: 10px 34px 47px -20px #ccc;
+ 
+}
+
+ 
+.navbar-nav > li.active > a {
+	background-color: #00c7fe;
+	color:#fff;
+
+	 
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	 
+ background-color: #00c7fe;
+color: #fff;
+}
+
+@media (max-width: 767px) {
+	
+	
+.menu_toggle_header .navbar-header .mobile_logo{
+	display:inline-block;
+}
+	
+.menu_toggle_header .desktop_logo{
+	display:none;
+}
+	
+	
+	
+	.navbar-collapse.collapse {
+	float:none;
+}
+ 
+.menu_toggle_header .nav-header {
+	width:100%;
+}
+
+.navbar-nav > li > a{
+	padding:10px;
+}
+
+}
+
+
